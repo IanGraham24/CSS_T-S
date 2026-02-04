@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* LEFT MENU */
+/* left menu */
 #menuItems {
   position: fixed;
   left: 0;
@@ -13,7 +13,7 @@ body {
   background-color: black;
 }
 
-/* NAV ITEMS (buttons or links) */
+/* nav items */
 #menuItems button,
 #menuItems a {
   display: block;
@@ -26,13 +26,13 @@ body {
   text-align: center;
 }
 
-/* NAV HOVER */
+/* nav hover */
 #menuItems button:hover,
 #menuItems a:hover {
   background-color: #444;
 }
 
-/* JUMP MENU */
+/* jump menu */
 #jumpMenu {
   display: none;
   list-style: none;
@@ -40,7 +40,7 @@ body {
   margin: 0;
 }
 
-/* SHOW JUMP MENU */
+/* show jump menu */
 #recentArticles:hover + #jumpMenu,
 #menuItems a[href="recent.html"]:hover + #jumpMenu {
   display: block;
@@ -61,7 +61,7 @@ body {
   color: white;
 }
 
-/* HEADER */
+/* header */
 header {
   position: fixed;
   left: 15%;
@@ -72,14 +72,14 @@ header {
   padding: 30px;
 }
 
-/* MAIN CONTENT */
+
 main {
   margin-left: 15%;
   padding-top: 140px;
   padding-left: 20px;
 }
 
-/* ARTICLES */
+
 article {
   width: 300px;
   display: inline-block;
@@ -94,13 +94,13 @@ article:hover {
   transform: scale(1.05);
 }
 
-/* FIRST LETTER */
+/* first letter */
 article p:first-of-type::first-letter {
   font-family: "Times New Roman";
   font-size: 36px;
 }
 
-/* GOOGLE LINKS */
+/* link to google */
 a[href^="https://www.google.com"] {
   background-image: url("arrowarrow.png");
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ a[href^="https://www.google.com"] {
   padding-right: 20px;
 }
 
-/* THANK YOU */
+/* bottom thank you */
 #thanks {
   position: fixed;
   bottom: 10px;
